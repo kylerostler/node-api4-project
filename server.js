@@ -8,7 +8,7 @@ server.use(cors())
 server.use('/api/users', usersRouter)
 
 server.get('/', (req, res) => {
-    res.send(`<h1>Fallback Route<h1>`)
+    res.send(`<h1>Here I am Heroku<h1>`)
 })
 
 module.exports = server
